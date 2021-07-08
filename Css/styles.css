@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
+    color: #364547;
+}
+h1{
+    color: #FF8474;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+}
+
+h2{
+    color: #F67280;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3{
+    color: #C06C84;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+    color: #355C7D;
+    border: 0;
+    border-bottom: 10px;
+    border-style: dotted;
+    width: 10%;
+    margin: 100px auto;
+}
+
+.top-p{
+    color: #F3F4ED;
+}
+
+p {
+    line-height: 2;
+}
+
+a {
+    color:#C06C84;
+    font-family: 'Montserrat', sans-serif;
+    margin:10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+a:hover{
+    color: #eba6ba;
+    font-size: 2.5rem;
+}
+
+.top-container {
+    background-color: #355C7D;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container{
+    margin: 100px 0;
+}
+
+.bottom-container{
+    padding: 50px 0 20px;
+    background-color: #355C7D;
+    color: #F3F4ED;
+    
+}
+
+.skill-row{
+    width: 50%;
+    margin:100px auto;
+    text-align: left;
+}
+
+
+.bottom-img{
+    position: absolute;
+    right: 450px;
+    top:50px;
+    height: 200px;
+}
+
+.top-img{
+    position: absolute;
+    left: 450px;
+    bottom: 300px;
+    height: 200px;
+}
+
+.lineNotes{
+    height: 200px;
+}
+
+.guitar{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.composing{
+    width: 25%;
+    float:right;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+
+.profile-img{
+    border-radius: 50%;
+}
+.profile-img:hover{
+    border-radius: 20%;
+}
+
+.contact-me-info{
+    width: 40%;
+    margin: 40px auto;
+}
+
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    border:solid;
+    background-color: #FF8474;
+    border-radius: 15%;
+    text-decoration: none;
+    color:#F3F4ED;
+    padding: 10px 20px; 
+    background-image: linear-gradient(#ec7464,#FF8474);
+}
+
+.btn:hover{
+    background-color: blue;
+    color:black;
+}
+
+.copyright{
+    font-size: 1.5rem;
+}
